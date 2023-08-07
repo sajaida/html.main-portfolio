@@ -154,21 +154,9 @@ h2 {
 }
 
 
-/* Media query for mobile devices */
-@media (max-width:320px){}
-   
-   
-
-
-
-
-
-
 .About-me{
     text-align: center;
-
 }
-
 
 .skills {
     text-align: center;
@@ -226,3 +214,10 @@ a>svg {
 a:hover>svg {
     /* Fun color while hovering an svg icon */
     fill: #6528F7;}
+
+/* Media query for mobile devices */
+@media (max-width:320px){
+  .tech > div {
+    padding: 25px;
+  } 
+}
